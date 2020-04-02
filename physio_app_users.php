@@ -140,7 +140,7 @@
 			<div class="row">
 				
 				<div class="col sm-10">
-					<?php echo $user_table; ?>
+					<?php //echo $user_table; ?>
 				</div>
 				
         	</div>
