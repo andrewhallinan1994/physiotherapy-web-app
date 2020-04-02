@@ -104,19 +104,19 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="http://localhost/physio_app_index.php">
+                <a class="nav-link" href="https://physiotherapy-web-app.herokuapp.com/index.php">
                   <span data-feather="file"></span>
                   Home
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="http://localhost/physio_app_users.php">
+                <a class="nav-link" href="https://physiotherapy-web-app.herokuapp.com/physio_app_users.php">
                   <span data-feather="shopping-cart"></span>
                   Users (admin. only)
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="http://localhost/physio_app_exercises.php">
+                <a class="nav-link" href="https://physiotherapy-web-app.herokuapp.com/physio_app_exercises.php">
                   <span data-feather="users"></span>
                   Exercises
                 </a>
