@@ -1,7 +1,7 @@
 <?php
 	/*
-	/* Attempt MySQL server connection. Assuming you are running MySQL
-	server with default setting (user 'root' with no password) */
+	// Attempt MySQL server connection. Assuming you are running MySQL
+	//server with default setting (user 'root' with no password) 
 	$link = mysqli_connect("localhost", "root", "", "tutorial");		//mysqli_connect("IP address of DB", "username", "password", "DB name");
 	
 	// Check connection
