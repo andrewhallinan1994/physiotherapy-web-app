@@ -1,8 +1,21 @@
 <?php
+	
+	$url = parse_url(getenv("mysql://b27cdeb44b89ff:38c7780c@eu-cdbr-west-02.cleardb.net/heroku_aec4c9a333c49a9?reconnect=true"));
+
+	$server = $url["host"];
+	$username = $url["user"];
+	$password = $url["pass"];
+	$db = substr($url["path"], 1);
+
+	$link = new mysqli($server, $username, $password, $db);			//can use $link or $conn
+	
+	
+	
 	/*
 	// Attempt MySQL server connection. Assuming you are running MySQL
 	//server with default setting (user 'root' with no password) 
 	$link = mysqli_connect("localhost", "root", "", "tutorial");		//mysqli_connect("IP address of DB", "username", "password", "DB name");
+	*/
 	
 	// Check connection
 	if($link === false){
@@ -56,7 +69,7 @@
 	// Close connection
 	mysqli_close($link);
 	
-	*/
+	
 ?>
 
 
