@@ -7,8 +7,8 @@
 	$password = $url["38c7780c"];
 	$db = substr($url["heroku_aec4c9a333c49a9"], 1);
 
-	$link = new mysqli($server, $username, $password, $db);			//can use $link or $conn
-	//$link = mysqli_connect($server, $username, $password, $db);
+	//$link = new mysqli($server, $username, $password, $db);			//can use $link or $conn
+	$link = mysqli_connect($server, $username, $password, $db);
 	
 	
 	/*
