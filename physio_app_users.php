@@ -2,10 +2,10 @@
 	
 	$url = parse_url(getenv("mysql://b27cdeb44b89ff:38c7780c@eu-cdbr-west-02.cleardb.net/heroku_aec4c9a333c49a9?reconnect=true"));
 
-	$server = $url["host"];
-	$username = $url["user"];
-	$password = $url["pass"];
-	$db = substr($url["path"], 1);
+	$server = $url["eu-cdbr-west-02.cleardb.net"];
+	$username = $url["b27cdeb44b89ff"];
+	$password = $url["38c7780c"];
+	$db = substr($url["heroku_aec4c9a333c49a9"], 1);
 
 	$link = new mysqli($server, $username, $password, $db);			//can use $link or $conn
 	
